@@ -1,9 +1,6 @@
 Django REST Witchcraft
 ======================
 
-|Build Status| |Read The Docs| |PyPI version| |Coveralls Status|
-
-**SQLAlchemy specific things for django-rest-framework**
 
 Installation
 ============
@@ -213,14 +210,3 @@ Now, our user looks like:
 
     >>> user.group
     Group(id=1, name='Super User')
-
-
-.. |Build Status| image:: https://travis-ci.org/shosca/django-rest-witchcraft.svg?branch=master
-   :target: https://travis-ci.org/shosca/django-rest-witchcraft
-.. |Read The Docs| image:: https://readthedocs.org/projects/django-rest-witchcraft/badge/?version=latest
-   :target: http://django-rest-witchcraft.readthedocs.io/en/latest/?badge=latest
-.. |PyPI version| image:: https://badge.fury.io/py/django-rest-witchcraft.svg
-   :target: https://badge.fury.io/py/django-rest-witchcraft
-.. |Coveralls Status| image:: https://coveralls.io/repos/github/shosca/django-rest-witchcraft/badge.svg?branch=master
-   :target: https://coveralls.io/github/shosca/django-rest-witchcraft?branch=master
-

@@ -11,11 +11,11 @@ from rest_framework.settings import api_settings
 from rest_witchcraft.utils import _column_info
 from sqlalchemy import Column, types
 
-from .models import (  # noqa # isort:skip
+from .models import (
     COLORS, Engine, Option, Owner, Vehicle, VehicleOther, VehicleType, session
 )
 
-from rest_witchcraft.serializers import (  # noqa # isort:skip
+from rest_witchcraft.serializers import (
     BaseSerializer, CompositeSerializer,
     ModelSerializer, model_info)
 

@@ -39,5 +39,4 @@ class DefaultRouter(routers.DefaultRouter):
                 )
 
             return '/'.join(regexes)
-
         return super(DefaultRouter, self).get_lookup_regex(viewset, lookup_prefix)
